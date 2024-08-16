@@ -1,0 +1,20 @@
+package br.com.veiculo.main;
+
+import br.com.veiculo.Veiculo;
+
+public class Main {
+
+	public static void main(String[] args) {
+		//tirando o carro da forma / instanciar
+		
+		Veiculo objVeiculo1 = new Veiculo("Fiat","uno",1997);
+		objVeiculo1.acelerar();
+
+		Veiculo objVeiculo2 = new Veiculo("chevrolet","opala",1968);
+		objVeiculo2.acelerar();
+
+		Veiculo objVeiculo3 = new Veiculo("chevrolet","opala",1968);
+		objVeiculo3.freiar();
+	}
+
+}
