@@ -7,14 +7,14 @@ public class Main {
 	public static void main(String[] args) {
 		
 		Animal cachorro = new Animal("cachorro","bulldog","auau");
-		cachorro.correr();
-		cachorro.acao();
+		cachorro.correr("e faz AUAU");
+		
 
 		
 		
 		Animal gato = new Animal("gato","persa","MIAU");
-		gato.correr();
-		gato.acao();
+		gato.correr("e faz MIAU");
+	
 		
 	}
 
