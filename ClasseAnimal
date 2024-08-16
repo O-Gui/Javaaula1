@@ -1,0 +1,29 @@
+package br.com.guilherme;
+
+public class Animal {
+	
+	
+	private String especie;
+	private String raca;
+	private String acao;
+
+	public Animal(String especie, String raca, String acao) {
+		super();
+		this.especie = especie;
+		this.raca = raca;
+		this.acao = acao;
+	}
+	public void correr() {
+		
+		System.out.println(especie+ " corre como o vento");
+
+	}
+		public void acao() {
+			
+		System.out.println("faz "+acao);
+
+	}
+		
+	
+
+}
