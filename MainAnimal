@@ -1,0 +1,21 @@
+package br.com.guilherme.main;
+
+import br.com.guilherme.Animal;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Animal cachorro = new Animal("cachorro","bulldog","auau");
+		cachorro.correr();
+		cachorro.acao();
+
+		
+		
+		Animal gato = new Animal("gato","persa","MIAU");
+		gato.correr();
+		gato.acao();
+		
+	}
+
+}
