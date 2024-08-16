@@ -15,12 +15,12 @@ public class Animal {
 	}
 	public void correr() {
 		
-		System.out.println(especie+ " corre como o vento");
+		System.out.println(especie+" "+ raca+" "+ "corre como o vento ");
 
 	}
 		public void acao() {
 			
-		System.out.println("faz "+acao);
+		System.out.println("faz"+" "+acao);
 
 	}
 		
