@@ -13,17 +13,12 @@ public class Animal {
 		this.raca = raca;
 		this.acao = acao;
 	}
-	public void correr() {
+	public void correr(String som) {
 		
-		System.out.println(especie+" "+ raca+" "+ "corre como o vento ");
+		System.out.println(especie+" "+ raca+ " corre como o vento " +som);
 
 	}
-		public void acao() {
-			
-		System.out.println("faz"+" "+acao);
-
-	}
-		
+	
 	
 
 }
